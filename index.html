@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIF Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <div id='topContainer'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">GIF Image Search</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">
+                            <button type="button" class="btn btn-success" id='pullFavs'>View Favorites</button>
+                            <button type="button" class="btn btn-danger" id='emptyFav'>Empty Favorites</button>
+                        </a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0" id='searchNav'>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search GIFs" aria-label="Search" id='txtInput'>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id='submit'>Search</button>
+                    </form>
+            </div>
+        </nav>
+        <div id='qsContainer'>
+            <h1 class="display-5" id='qsTxt'>Quick Search Buttons:</h1>
+            <div id='btnCup'></div>
+        </div>
+        <div id="containerLabel">
+            <div id='lbltxt'>Trending GIFs</div>
+        </div>
+    </div>
+    <div id='imgCup'></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>

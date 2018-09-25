@@ -1,0 +1,108 @@
+
+/* GIF images on page */
+.imgs {
+    height:200px;
+    width:200px;
+    margin:5px;
+}
+
+/* default and custom added buttons */
+.btnSearch {
+    border: 5px;
+    border-radius:10px;
+    margin:10px;
+    background-color: rgb(50, 124, 226);
+    padding:5px;
+    text-align:center;
+    border-color:black;
+    color:#ffffff;
+}
+
+/* container holding buttons */
+#btnCup {
+    text-align:center;
+    margin:10px;
+}
+
+/* Title over image */
+#imgTitle {
+    background-color: rgb(17, 41, 74);
+    text-align:center;
+    color:#ffffff;
+    font-size:24px;
+}
+
+/* default body */
+body {
+    font-family: sans-serif;
+    background-color: rgb(74, 70, 70);
+    color:#ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+/* container containing all images */
+#imgCup {
+    text-align:center;
+    width:100%;
+    height:70vh;
+}
+
+/* container containing indivual images */
+.imgBox {
+    width:15%;
+    margin: 2.5%;
+    height: 210px;
+    float: left;
+    margin:10px;
+    position:relative;
+}
+
+/* when hovering over imgBox, make heart visible (if image is not favorited) */
+.imgBox:hover .favInd{
+    visibility: visible;
+}
+
+/* heart / favorite indicator (not selected) */
+.favInd {
+    height:30px;
+    width:30px;
+    position:absolute;
+    top: 30px;
+    left: 9px;
+    opacity:0.4;
+    visibility:hidden;
+}
+
+/* heart / favorite indicator (selected) */
+.favSel {
+    visibility:visible;
+    opacity:1.0
+}
+
+/* gif search bar (on nav bar ) */
+#searchNav {
+    position:relative;
+    left:50
+
+}
+#quickSearchBtns {
+    padding:3px;
+}
+
+#qsTxt {
+    font-size:24px;
+}
+#qsContainer {
+    margin:10px;
+    text-align:center;
+}
+#topContainer {
+    height:30vh;
+}
+#emptyFav {
+    visibility:hidden;
+}
+#containerLabel {
+    text-align: center;
+    background-color:rgb(37, 4, 4);
+}
