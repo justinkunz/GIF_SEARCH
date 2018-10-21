@@ -2,5 +2,4 @@
 Search for GIFs with this web app. Stop and pause the GIFs by clicking once. 
 Add GIFs to your favorites by hovering over the image and clicking the heart icon in the left corner.
 
-#Live Demo Link: 
-https://marycbrown02.github.io/codemasters/
+Live Demo Link: https://marycbrown02.github.io/codemasters/
